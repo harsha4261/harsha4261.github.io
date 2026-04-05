@@ -184,7 +184,8 @@ copyEmailBtn.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(email);
   } catch {
-    /* fallback */
+    /* Fallback for browsers that don't support the Clipboard API.
+       document.execCommand is deprecated but retained for broad compatibility. */
     const ta = document.createElement('textarea');
     ta.value = email;
     ta.style.position = 'fixed';
