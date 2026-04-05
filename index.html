@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Harsha's personal portfolio — full-stack developer and AI enthusiast building modern web experiences." />
-  <meta name="keywords" content="Harsha, portfolio, web developer, software engineer, GitHub, JavaScript, Python" />
-  <meta name="author" content="Harsha" />
-  <meta property="og:title" content="Harsha | Developer Portfolio" />
-  <meta property="og:description" content="Full-stack developer and AI enthusiast building modern web experiences." />
+  <meta name="description" content="Harsha Vardhan Reddy Emani — Full-Stack AI Developer building intelligent, production-ready systems." />
+  <meta name="keywords" content="Harsha Vardhan Reddy Emani, portfolio, Full-Stack AI Developer, software engineer, GitHub, JavaScript, Python, Machine Learning, Deep Learning" />
+  <meta name="author" content="Harsha Vardhan Reddy Emani" />
+  <meta property="og:title" content="Harsha Vardhan Reddy Emani | Full-Stack AI Developer" />
+  <meta property="og:description" content="Full-Stack AI Developer building intelligent, production-ready systems." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://harsha-ai.me" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Harsha | Developer Portfolio" />
+  <meta name="twitter:title" content="Harsha Vardhan Reddy Emani | Full-Stack AI Developer" />
   <meta name="theme-color" content="#0f0f13" />
-  <title>Harsha | Developer Portfolio</title>
+  <title>Harsha Vardhan Reddy Emani | Full-Stack AI Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -26,15 +26,15 @@
     <nav class="nav-container" aria-label="Main navigation">
       <a href="#hero" class="nav-logo" aria-label="Home">H<span class="accent">.</span></a>
       <ul class="nav-links" role="list">
-        <li><a href="#about"      class="nav-link">About</a></li>
-        <li><a href="#projects"   class="nav-link">Projects</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#skills"     class="nav-link">Skills</a></li>
-        <li><a href="#contact"    class="nav-link">Contact</a></li>
+        <li><a href="#about"             class="nav-link">About</a></li>
+        <li><a href="#featured-projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience"        class="nav-link">Experience</a></li>
+        <li><a href="#skills"            class="nav-link">Skills</a></li>
+        <li><a href="#contact"           class="nav-link">Contact</a></li>
       </ul>
       <div class="nav-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode" title="Toggle theme">
-          <span class="theme-icon" aria-hidden="true">🌙</span>
+          <span class="theme-icon" aria-hidden="true">☾</span>
         </button>
         <a href="Resume.pdf" download class="btn btn-outline btn-sm" aria-label="Download Resume">Resume</a>
         <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -44,11 +44,11 @@
     </nav>
     <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile menu" hidden>
       <ul role="list">
-        <li><a href="#about"      class="nav-link">About</a></li>
-        <li><a href="#projects"   class="nav-link">Projects</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#skills"     class="nav-link">Skills</a></li>
-        <li><a href="#contact"    class="nav-link">Contact</a></li>
+        <li><a href="#about"             class="nav-link">About</a></li>
+        <li><a href="#featured-projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience"        class="nav-link">Experience</a></li>
+        <li><a href="#skills"            class="nav-link">Skills</a></li>
+        <li><a href="#contact"           class="nav-link">Contact</a></li>
         <li><a href="Resume.pdf" download class="btn btn-primary btn-sm" style="margin-top:.5rem">Download Resume</a></li>
       </ul>
     </div>
@@ -64,29 +64,32 @@
         <div class="hero-grid"></div>
       </div>
       <div class="container hero-content">
-        <p class="hero-greeting reveal">Hey there 👋, I'm</p>
-        <h1 class="hero-name reveal">Harsha</h1>
+        <p class="hero-greeting reveal">Hey there I'm</p>
+        <h1 class="hero-name reveal">Harsha Vardhan Reddy Emani</h1>
         <div class="hero-role reveal">
           <span class="role-prefix">I build&nbsp;</span>
           <span class="typed-text" id="typedText" aria-live="polite"></span>
           <span class="typed-cursor" aria-hidden="true">|</span>
         </div>
         <p class="hero-bio reveal">
-          Full-stack developer &amp; AI enthusiast crafting intelligent, elegant web experiences.
-          Passionate about clean code, great UX, and open-source.
+          AI Research &amp; Systems Engineer specializing in HPC and LLM optimization. Speaker @ SCI 2025. 
+          Ex-Intern @ C-DAC. Building production systems used by 5,000+ users.
         </p>
         <div class="hero-actions reveal">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#featured-projects" class="btn btn-primary">View Projects</a>
           <a href="#contact"  class="btn btn-ghost">Get in Touch</a>
         </div>
         <div class="hero-social reveal" aria-label="Social links">
           <a href="https://github.com/harsha4261"    target="_blank" rel="noopener" aria-label="GitHub"   class="social-link">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
           </a>
-          <a href="https://linkedin.com/in/harsha4261" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">
+          <a href="https://www.linkedin.com/in/harsha-vardhan-reddy-emani/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
-          <a href="mailto:harsha4261@gmail.com" aria-label="Email" class="social-link">
+          <a href="https://leetcode.com/u/Eharsha4261/" target="_blank" rel="noopener" aria-label="LeetCode" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="20" height="20"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+          </a>
+          <a href="mailto:ehvrreddy456@gmail.com" aria-label="Email" class="social-link">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="20" height="20"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
           </a>
         </div>
@@ -106,29 +109,28 @@
         <div class="about-grid">
           <div class="about-text reveal">
             <p>
-              I'm <strong>Harsha</strong>, a passionate full-stack developer and AI enthusiast based in India.
-              I love turning complex problems into simple, beautiful, and intuitive solutions.
+              I'm <strong>Harsha Vardhan Reddy Emani</strong>, an AI Research &amp; Systems Engineering student specializing in 
+              High-Performance Computing and Large Language Model optimization. Based in Guntur, Andhra Pradesh, India.
             </p>
             <p>
-              My journey started with tinkering on small projects, and has grown into building
-              scalable applications, exploring machine learning, and contributing to open source.
+              Hands-on experience fine-tuning and building models from scratch across <strong>AMD MI300X, Intel Gaudi3, and NVIDIA L40S</strong> GPU platforms.
+              Speaker at <strong>SCI 2025</strong> delivering tutorials on LLM mathematical foundations.
             </p>
             <p>
-              When I'm not coding, you'll find me reading about AI breakthroughs, playing chess,
-              or experimenting with new technologies.
+              Core Member &amp; Platform Manager at AIHUB VVIT — deployed 5+ production projects, organized hackathons, and mentoring peers in applied AI.
             </p>
             <div class="about-stats">
               <div class="stat-card">
-                <span class="stat-number" id="repoCount">—</span>
-                <span class="stat-label">Public Repos</span>
+                <span class="stat-number">5K+</span>
+                <span class="stat-label">Users Served</span>
               </div>
               <div class="stat-card">
-                <span class="stat-number">2+</span>
-                <span class="stat-label">Years Coding</span>
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Deployments</span>
               </div>
               <div class="stat-card">
-                <span class="stat-number">10+</span>
-                <span class="stat-label">Technologies</span>
+                <span class="stat-number">8.7</span>
+                <span class="stat-label">GPA</span>
               </div>
             </div>
           </div>
@@ -137,31 +139,31 @@
               <h3>What I Do</h3>
               <ul class="strength-list" role="list">
                 <li>
-                  <span class="strength-icon" aria-hidden="true">🌐</span>
+                  <span class="strength-icon" aria-hidden="true">•</span>
                   <div>
-                    <strong>Web Development</strong>
-                    <p>Building performant, accessible web applications</p>
+                    <strong>LLM Development &amp; Optimization</strong>
+                    <p>Building LLMs from scratch, fine-tuning with LoRA, multi-GPU training</p>
                   </div>
                 </li>
                 <li>
-                  <span class="strength-icon" aria-hidden="true">🤖</span>
+                  <span class="strength-icon" aria-hidden="true">•</span>
                   <div>
-                    <strong>AI / ML</strong>
-                    <p>Integrating intelligence into everyday products</p>
+                    <strong>High-Performance Computing</strong>
+                    <p>CUDA, ROCm, OpenMP, GPU-accelerated AI pipelines</p>
                   </div>
                 </li>
                 <li>
-                  <span class="strength-icon" aria-hidden="true">📱</span>
+                  <span class="strength-icon" aria-hidden="true">•</span>
                   <div>
-                    <strong>UI / UX Design</strong>
-                    <p>Crafting clean, intuitive interfaces</p>
+                    <strong>RAG &amp; Multi-Agent Systems</strong>
+                    <p>LangGraph, LangChain, Vector DBs, FastAPI deployment</p>
                   </div>
                 </li>
                 <li>
-                  <span class="strength-icon" aria-hidden="true">🔧</span>
+                  <span class="strength-icon" aria-hidden="true">•</span>
                   <div>
-                    <strong>Open Source</strong>
-                    <p>Contributing to and building tools for the community</p>
+                    <strong>DevOps &amp; Production Deployment</strong>
+                    <p>Docker, Linux servers, scalable backend architecture</p>
                   </div>
                 </li>
               </ul>
@@ -171,12 +173,235 @@
       </div>
     </section>
 
-    <!-- ─── PROJECTS ──────────────────────────────────────────── -->
-    <section class="section projects-section" id="projects" aria-label="Projects">
+    <!-- ─── FEATURED PROJECTS ──────────────────────────────────── -->
+    <section class="section featured-projects-section" id="featured-projects" aria-label="Featured Projects">
       <div class="container">
         <div class="section-header reveal">
-          <span class="section-tag">Work</span>
+          <span class="section-tag">Highlights</span>
           <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Production-ready systems and ML solutions</p>
+        </div>
+
+        <div class="featured-grid">
+          <!-- Medical LLM -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">LLM</div>
+            <h3>Medical LLM &amp; SLM Development</h3>
+            <p>Built GPT-2–style Small Language Model from scratch with cross-hardware multi-GPU training on AMD MI300X systems using DDP and gradient accumulation.</p>
+            <ul class="project-features">
+              <li>Custom Causal Self-Attention, LayerNorm, Transformer blocks</li>
+              <li>8-GPU AMD MI300X distributed training with DDP</li>
+              <li>Fine-tuned 7B medical LLM using LoRA for parameter-efficient adaptation</li>
+              <li>Mixed-precision strategies for memory efficiency</li>
+              <li>Verifiable medical reasoning tasks with SFTTrainer</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">PyTorch</span>
+              <span class="chip">Hugging Face</span>
+              <span class="chip">ROCm/CUDA</span>
+              <span class="chip">DeepSpeed</span>
+              <span class="chip">LoRA</span>
+            </div>
+            <a href="https://github.com/harsha4261" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- SocialGPT -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">RAG</div>
+            <h3>SocialGPT – Multi-Agent RAG System</h3>
+            <p>LangGraph-based multi-agent RAG system with intelligent router node switching between vector search and real-time API retrieval.</p>
+            <ul class="project-features">
+              <li>🔀 Intelligent router for vector search vs API retrieval</li>
+              <li>Automated roll-number extraction for intent parsing</li>
+              <li>Real-time data from university result endpoints</li>
+              <li>FastAPI deployment for scalable, low-latency inference</li>
+              <li>End-to-end RAG workflow with vector databases</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">LangGraph</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Vector DB</span>
+              <span class="chip">LLMs</span>
+            </div>
+            <a href="https://github.com/harsha4261" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- TrackCoders -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Production</div>
+            <h3>TrackCoders – Student Analytics Platform</h3>
+            <p>Production-grade campus-wide analytics platform used by 5,000+ students and faculty with real-time dashboards and progress visualization.</p>
+            <ul class="project-features">
+              <li>Deployed for 5,000+ students and faculty campus-wide</li>
+              <li>FastAPI + MongoDB backend with React frontend</li>
+              <li>Linux server deployment with Docker</li>
+              <li>Real-time dashboards and progress visualization</li>
+              <li>Optimized for high traffic and low-latency access</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">FastAPI</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">React</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Linux</span>
+            </div>
+            <a href="https://github.com/harsha4261" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- SmartJob V2 -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Featured</div>
+            <h3>SmartJob V2 - Fresher Jobs Platform</h3>
+            <p>Comprehensive job and internship platform designed for freshers and students with real-time job updates from LinkedIn, Indeed, Naukri, and Internshala.</p>
+            <ul class="project-features">
+              <li>Advanced job search with location, experience, and remote filters</li>
+              <li>Real-time web scraping from multiple job portals</li>
+              <li>Integrated resume builder with multiple templates</li>
+              <li>Career guidance and interview preparation resources</li>
+              <li>Fast loading with intelligent caching and background updates</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">React</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">Vite</span>
+              <span class="chip">Framer Motion</span>
+            </div>
+            <a href="https://github.com/harsha4261/SmartJob-V2" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- Prompt Classification ML -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">ML</div>
+            <h3>Prompt Classification ML</h3>
+            <p>Advanced machine learning system for hierarchical prompt classification with a web application for real-time inference.</p>
+            <ul class="project-features">
+              <li>Hierarchical classification model with superior accuracy</li>
+              <li>TF-IDF vectorization for robust text feature extraction</li>
+              <li>Data augmentation with expanded prompt dataset</li>
+              <li>Interactive Streamlit web application</li>
+              <li>Model persistence with pickle for efficient inference</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">Python</span>
+              <span class="chip">Scikit-learn</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">TF-IDF</span>
+            </div>
+            <a href="https://github.com/harsha4261/Prompt-Classification-ML" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- FarmConnect -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Mobile</div>
+            <h3>FarmConnect - Agricultural Platform</h3>
+            <p>Modern Flutter-based cross-platform mobile application for connecting farmers with markets, featuring responsive design and comprehensive theming.</p>
+            <ul class="project-features">
+              <li>Cross-platform mobile application (Android &amp; iOS)</li>
+              <li>Comprehensive theming system (light/dark modes)</li>
+              <li>Responsive design using Sizer package</li>
+              <li>Advanced routing system for seamless navigation</li>
+              <li>Production-ready modular architecture</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">Flutter</span>
+              <span class="chip">Dart</span>
+              <span class="chip">Material Design</span>
+            </div>
+            <a href="https://github.com/harsha4261/Farmconnect" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- Crop Price Predictor -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Deep Learning</div>
+            <h3>Crop Price Predictor</h3>
+            <p>Deep learning system for forecasting agricultural crop prices using Keras neural networks with automated data preprocessing pipeline.</p>
+            <ul class="project-features">
+              <li>Sequential Keras model with multiple dense layers</li>
+              <li>Automated preprocessing with feature engineering</li>
+              <li>Label encoding and standard scaling for data</li>
+              <li>Model persistence with preprocessing components</li>
+              <li>R2 score and MAPE evaluation metrics</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">TensorFlow</span>
+              <span class="chip">Keras</span>
+              <span class="chip">Python</span>
+              <span class="chip">Pandas</span>
+            </div>
+            <a href="https://github.com/harsha4261/crop-price-predictor" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- Network Traffic Prediction -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Time Series</div>
+            <h3>Network Traffic Prediction</h3>
+            <p>Time-series forecasting for network traffic patterns using dual approach: traditional ARIMA and modern LSTM neural networks.</p>
+            <ul class="project-features">
+              <li>Dual approach: ARIMA and LSTM models</li>
+              <li>Comprehensive EDA for traffic patterns</li>
+              <li>⚙️ Automated ARIMA parameter selection with pmdarima</li>
+              <li>Sequential LSTM for advanced prediction</li>
+              <li>RMSE and MAE performance evaluation</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">TensorFlow</span>
+              <span class="chip">LSTM</span>
+              <span class="chip">ARIMA</span>
+              <span class="chip">Python</span>
+            </div>
+            <a href="https://github.com/harsha4261/Network-Traffic-Prediction-" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- Amazon ML Challenge -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Challenge</div>
+            <h3>Amazon ML Challenge - Smart Pricing</h3>
+            <p>ML solution for optimal product pricing in e-commerce, predicting prices for 75K products using multi-modal approach with text and images.</p>
+            <ul class="project-features">
+              <li>Price prediction for 75K+ products</li>
+              <li>Multi-modal: Text (catalog) + Image features</li>
+              <li>SMAPE evaluation metric optimization</li>
+              <li>Feature engineering for text and image data</li>
+              <li>Complete methodology documentation</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">Python</span>
+              <span class="chip">ML Challenge</span>
+              <span class="chip">Multi-modal</span>
+            </div>
+            <a href="https://github.com/harsha4261/AmazonMl" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+
+          <!-- Web Scraping Project -->
+          <article class="featured-card glass reveal">
+            <div class="featured-badge">Automation</div>
+            <h3>Automated Job Market Analysis</h3>
+            <p>Comprehensive web scraping solution for automated job market analysis using multiple Python libraries for data extraction.</p>
+            <ul class="project-features">
+              <li>Multi-library: BeautifulSoup, Scrapy, Selenium</li>
+              <li>Structured data extraction from job portals</li>
+              <li>Robust error handling and data validation</li>
+              <li>Efficient data storage and processing pipelines</li>
+            </ul>
+            <div class="project-tech">
+              <span class="chip">Python</span>
+              <span class="chip">BeautifulSoup</span>
+              <span class="chip">Selenium</span>
+              <span class="chip">Scrapy</span>
+            </div>
+            <a href="https://github.com/harsha4261/Web-Scraping-Project" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View Project →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── MORE PROJECTS (GitHub API) ────────────────────────── -->
+    <section class="section projects-section" id="projects" aria-label="More Projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">More Work</span>
+          <h2 class="section-title">All Projects</h2>
           <p class="section-subtitle">Live data from GitHub</p>
         </div>
 
@@ -213,40 +438,189 @@
           <li class="timeline-item reveal">
             <div class="timeline-dot" aria-hidden="true"></div>
             <div class="timeline-content glass">
+              <span class="timeline-period">Dec 2025</span>
+              <h3>Speaker — SCI 2025 Conference</h3>
+              <p class="timeline-place">International Conference</p>
+              <p>Delivered a 3-hour technical tutorial titled <strong>"Mathematical Foundation for Large and Small Language Models"</strong>. Demonstrated live LLM deployment and performance benchmarking on Intel Gaudi3, AMD MI300X, and NVIDIA hardware.</p>
+              <div class="timeline-tags">
+                <span class="tag">Public Speaking</span><span class="tag">LLMs</span><span class="tag">GPU Benchmarking</span>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content glass">
+              <span class="timeline-period">Apr 2025 – Jun 2025</span>
+              <h3>HPC Intern</h3>
+              <p class="timeline-place">Centre for Development of Advanced Computing (C-DAC), Pune</p>
+              <p>Contributed to "High Performance Data Management Using Berkeley DB for Telecom Traffic Data." Designed and optimized graph-based data structures in C/C++ for modeling complex telecom networks. Leveraged Berkeley DB and OpenMP to parallelize and accelerate large-scale data access. Gained exposure to HPC cluster environments and performance profiling.</p>
+              <div class="timeline-tags">
+                <span class="tag">HPC</span><span class="tag">Berkeley DB</span><span class="tag">OpenMP</span><span class="tag">C/C++</span>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content glass">
               <span class="timeline-period">2024 – Present</span>
-              <h3>Software Developer</h3>
-              <p class="timeline-place">Freelance / Open Source</p>
-              <p>Designing and developing full-stack web applications, automation tools, and AI integrations for various clients and personal projects.</p>
+              <h3>Core Member &amp; Platform Manager — AIHUB VVIT</h3>
+              <p class="timeline-place">AI/ML Community Organization</p>
+              <p>Spearheading AI/ML project development and mentoring peers in applied AI. Deployed and maintain the official AIHUB VVIT website and backend infrastructure. Organized 3-4 student hackathons and technical challenges encouraging innovation and team-based problem-solving.</p>
               <div class="timeline-tags">
-                <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">REST APIs</span>
+                <span class="tag">Leadership</span><span class="tag">DevOps</span><span class="tag">Mentorship</span><span class="tag">Community</span>
               </div>
             </div>
           </li>
           <li class="timeline-item reveal">
             <div class="timeline-dot" aria-hidden="true"></div>
             <div class="timeline-content glass">
-              <span class="timeline-period">2023 – 2024</span>
-              <h3>AI/ML Intern</h3>
-              <p class="timeline-place">Academic Research Project</p>
-              <p>Worked on natural language processing and data analysis tasks, implementing machine learning models for text classification and pattern recognition.</p>
+              <span class="timeline-period">Aug 2023 – Present</span>
+              <h3>B.Tech — Artificial Intelligence &amp; Machine Learning</h3>
+              <p class="timeline-place">Vasireddy Venkatadri University (VVITU), Guntur</p>
+              <p>GPA: 8.7/10. Specializing in HPC and LLM optimization. Hands-on experience fine-tuning and building models from scratch across AMD MI300X, Intel Gaudi3, and NVIDIA L40S GPU platforms. Member of ACM student chapter.</p>
               <div class="timeline-tags">
-                <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">NLP</span>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item reveal">
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="timeline-content glass">
-              <span class="timeline-period">2022 – Present</span>
-              <h3>B.Tech — Computer Science &amp; Engineering</h3>
-              <p class="timeline-place">University (India)</p>
-              <p>Studying core CS fundamentals, data structures, algorithms, software engineering, and AI/ML principles. Active member of the coding club.</p>
-              <div class="timeline-tags">
-                <span class="tag">DSA</span><span class="tag">OS</span><span class="tag">DBMS</span>
+                <span class="tag">AI/ML</span><span class="tag">HPC</span><span class="tag">LLM Optimization</span><span class="tag">ACM Member</span>
               </div>
             </div>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <!-- ─── CERTIFICATIONS & ACHIEVEMENTS ──────────────────────── -->
+    <section class="section certifications-section" id="certifications" aria-label="Certifications & Achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications &amp; Achievements</h2>
+        </div>
+        
+        <div class="certs-grid">
+          <!-- Achievements -->
+          <div class="cert-category reveal">
+            <h3>Achievements</h3>
+            <div class="cert-cards">
+              <div class="cert-card glass">
+                <div class="cert-icon">01</div>
+                <div class="cert-info">
+                  <h4>Speaker — SCI 2025 Conference</h4>
+                  <p>3-hour tutorial: "Mathematical Foundation for Large and Small Language Models"</p>
+                  <a href="docs/Speaker/image.png" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">02</div>
+                <div class="cert-info">
+                  <h4>Finalist - 5G Innovation Hackathon 2025</h4>
+                  <p>Recognized for innovative solution in 5G technology</p>
+                  <a href="docs/5g-hackathon.pdf" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">03</div>
+                <div class="cert-info">
+                  <h4>Ex-Intern @ C-DAC Pune (HPC Group)</h4>
+                  <p>Berkeley DB · OpenMP · Performance Profiling</p>
+                  <a href="docs/cdac-internship.pdf" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">04</div>
+                <div class="cert-info">
+                  <h4>Core Member &amp; Platform Manager — AIHUB VVIT</h4>
+                  <p>Deployed 5+ production projects · Organized 3-4 hackathons</p>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">05</div>
+                <div class="cert-info">
+                  <h4>ACM Student Chapter Member</h4>
+                  <p>Seminars, coding events, and tech talks participation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Oracle Certifications -->
+          <div class="cert-category reveal">
+            <h3>Oracle Cloud Certifications</h3>
+            <div class="cert-cards">
+              <div class="cert-card glass">
+                <div class="cert-icon">•</div>
+                <div class="cert-info">
+                  <h4>OCI 2025 Certified Generative AI Professional</h4>
+                  <p>Oracle · Issued Oct 2025 · Expires Oct 2027</p>
+                  <div class="cert-skills">
+                    <span class="chip-sm">OCI GenAI</span>
+                    <span class="chip-sm">RAG</span>
+                    <span class="chip-sm">LLMs</span>
+                  </div>
+                  <a href="docs/oci-genai-professional.png" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">•</div>
+                <div class="cert-info">
+                  <h4>OCI 2025 Certified AI Foundations Associate</h4>
+                  <p>Oracle · Issued Aug 2025 · Expires Aug 2027</p>
+                  <div class="cert-skills">
+                    <span class="chip-sm">AI</span>
+                    <span class="chip-sm">OCI</span>
+                    <span class="chip-sm">ML Foundations</span>
+                  </div>
+                  <a href="docs/oci-ai-foundations.png" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Development Certifications -->
+          <div class="cert-category reveal">
+            <h3>Development &amp; AI Certifications</h3>
+            <div class="cert-cards">
+              <div class="cert-card glass">
+                <div class="cert-icon">•</div>
+                <div class="cert-info">
+                  <h4>Complete Flutter Development Bootcamp with Dart</h4>
+                  <p>Udemy · Issued Oct 2025</p>
+                  <div class="cert-skills">
+                    <span class="chip-sm">Flutter</span>
+                    <span class="chip-sm">Dart</span>
+                    <span class="chip-sm">Mobile Dev</span>
+                  </div>
+                  <a href="docs/flutter-bootcamp.png" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">•</div>
+                <div class="cert-info">
+                  <h4>Programming in Java</h4>
+                  <p>NPTEL Online Certification · 2024</p>
+                  <div class="cert-skills">
+                    <span class="chip-sm">Java</span>
+                    <span class="chip-sm">OOP</span>
+                    <span class="chip-sm">Multithreading</span>
+                  </div>
+                  <a href="docs/nptel-java.pdf" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-icon">•</div>
+                <div class="cert-info">
+                  <h4>Generative AI by Google Cloud</h4>
+                  <p>Google Cloud Skill Boost (L4G) · 2024</p>
+                  <div class="cert-skills">
+                    <span class="chip-sm">LLMs</span>
+                    <span class="chip-sm">Prompt Engineering</span>
+                    <span class="chip-sm">Foundation Models</span>
+                  </div>
+                  <a href="docs/google-genai.pdf" target="_blank" class="proof-link">View Proof</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -262,44 +636,66 @@
             <h3>Languages</h3>
             <ul class="skill-chips" role="list">
               <li class="chip">Python</li>
+              <li class="chip">C / C++</li>
+              <li class="chip">Java</li>
               <li class="chip">JavaScript</li>
-              <li class="chip">TypeScript</li>
-              <li class="chip">C++</li>
+              <li class="chip">Dart</li>
               <li class="chip">SQL</li>
               <li class="chip">HTML / CSS</li>
             </ul>
           </div>
           <div class="skill-category reveal glass">
-            <h3>Frameworks &amp; Libraries</h3>
+            <h3>AI / ML Frameworks</h3>
+            <ul class="skill-chips" role="list">
+              <li class="chip">PyTorch</li>
+              <li class="chip">Hugging Face</li>
+              <li class="chip">LangChain / LangGraph</li>
+              <li class="chip">Scikit-learn</li>
+              <li class="chip">DeepSpeed</li>
+              <li class="chip">LoRA / DDP</li>
+            </ul>
+          </div>
+          <div class="skill-category reveal glass">
+            <h3>Web &amp; Mobile</h3>
             <ul class="skill-chips" role="list">
               <li class="chip">React</li>
-              <li class="chip">Node.js</li>
-              <li class="chip">Express</li>
               <li class="chip">FastAPI</li>
-              <li class="chip">TensorFlow</li>
-              <li class="chip">Scikit-learn</li>
+              <li class="chip">Node.js / Express</li>
+              <li class="chip">Flutter</li>
+              <li class="chip">Scrapy</li>
+              <li class="chip">Tailwind CSS</li>
             </ul>
           </div>
           <div class="skill-category reveal glass">
-            <h3>Tools &amp; Platforms</h3>
+            <h3>Databases</h3>
             <ul class="skill-chips" role="list">
-              <li class="chip">Git / GitHub</li>
+              <li class="chip">MongoDB</li>
+              <li class="chip">MySQL</li>
+              <li class="chip">Oracle SQL</li>
+              <li class="chip">Berkeley DB</li>
+              <li class="chip">Vector Databases</li>
+            </ul>
+          </div>
+          <div class="skill-category reveal glass">
+            <h3>GPU &amp; HPC</h3>
+            <ul class="skill-chips" role="list">
+              <li class="chip">CUDA</li>
+              <li class="chip">AMD ROCm</li>
+              <li class="chip">Intel Gaudi3</li>
+              <li class="chip">OpenMP</li>
+              <li class="chip">AMD MI300X</li>
+              <li class="chip">NVIDIA L40S</li>
+            </ul>
+          </div>
+          <div class="skill-category reveal glass">
+            <h3>DevOps &amp; Tools</h3>
+            <ul class="skill-chips" role="list">
               <li class="chip">Docker</li>
-              <li class="chip">Linux</li>
+              <li class="chip">Git / GitHub</li>
+              <li class="chip">Linux (Ubuntu)</li>
+              <li class="chip">Server Deployment</li>
               <li class="chip">VS Code</li>
-              <li class="chip">Postman</li>
-              <li class="chip">GitHub Pages</li>
-            </ul>
-          </div>
-          <div class="skill-category reveal glass">
-            <h3>Concepts</h3>
-            <ul class="skill-chips" role="list">
-              <li class="chip">REST APIs</li>
-              <li class="chip">Machine Learning</li>
-              <li class="chip">NLP</li>
-              <li class="chip">Data Structures</li>
-              <li class="chip">System Design</li>
-              <li class="chip">CI / CD</li>
+              <li class="chip">Jupyter</li>
             </ul>
           </div>
         </div>
@@ -316,28 +712,69 @@
             Open to opportunities, collaborations, and interesting conversations.
           </p>
         </div>
-        <div class="contact-grid">
-          <div class="contact-card glass reveal">
-            <div class="contact-icon" aria-hidden="true">✉️</div>
-            <h3>Email</h3>
-            <button class="copy-btn" id="copyEmailBtn" data-email="harsha4261@gmail.com" aria-label="Copy email address">
-              harsha4261@gmail.com
-            </button>
-            <span class="copy-feedback" id="copyFeedback" aria-live="polite" hidden>Copied!</span>
+
+        <div class="contact-wrapper">
+          <!-- Contact Form -->
+          <div class="contact-form-wrap reveal">
+            <form action="https://formspree.io/f/xnjooozq" method="POST" class="contact-form glass" id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required placeholder="What's this about?" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                </svg>
+              </button>
+            </form>
           </div>
-          <div class="contact-card glass reveal">
-            <div class="contact-icon" aria-hidden="true">🐙</div>
-            <h3>GitHub</h3>
-            <a href="https://github.com/harsha4261" target="_blank" rel="noopener" class="contact-link">
-              @harsha4261
-            </a>
-          </div>
-          <div class="contact-card glass reveal">
-            <div class="contact-icon" aria-hidden="true">💼</div>
-            <h3>LinkedIn</h3>
-            <a href="https://linkedin.com/in/harsha4261" target="_blank" rel="noopener" class="contact-link">
-              harsha4261
-            </a>
+
+          <!-- Contact Cards -->
+          <div class="contact-cards-wrap">
+            <div class="contact-grid">
+              <div class="contact-card glass reveal">
+                <div class="contact-icon" aria-hidden="true">@</div>
+                <h3>Email</h3>
+                <button class="copy-btn" id="copyEmailBtn" data-email="ehvrreddy456@gmail.com" aria-label="Copy email address">
+                  ehvrreddy456@gmail.com
+                </button>
+                <span class="copy-feedback" id="copyFeedback" aria-live="polite" hidden>Copied!</span>
+              </div>
+              <div class="contact-card glass reveal">
+                <div class="contact-icon" aria-hidden="true">GH</div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/harsha4261" target="_blank" rel="noopener" class="contact-link">
+                  @harsha4261
+                </a>
+              </div>
+              <div class="contact-card glass reveal">
+                <div class="contact-icon" aria-hidden="true">in</div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/harsha-vardhan-reddy-emani/" target="_blank" rel="noopener" class="contact-link">
+                  Harsha Vardhan Reddy Emani
+                </a>
+              </div>
+              <div class="contact-card glass reveal">
+                <div class="contact-icon" aria-hidden="true">LC</div>
+                <h3>LeetCode</h3>
+                <a href="https://leetcode.com/u/Eharsha4261/" target="_blank" rel="noopener" class="contact-link">
+                  Eharsha4261
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -350,7 +787,7 @@
     <div class="container footer-inner">
       <p class="footer-logo">H<span class="accent">.</span></p>
       <p class="footer-copy">
-        Designed &amp; built by <strong>Harsha</strong> · 
+        Designed &amp; built by <strong>Harsha Vardhan Reddy Emani</strong> · 
         <a href="https://github.com/harsha4261/harsha4261.github.io" target="_blank" rel="noopener">Source on GitHub</a>
       </p>
       <p class="footer-year" id="footerYear"></p>

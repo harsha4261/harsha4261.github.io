@@ -115,11 +115,13 @@ backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 's
    ══════════════════════════════════════════════════════════════ */
 (function initTyping() {
   const words = [
-    'web experiences.',
-    'AI solutions.',
-    'clean code.',
-    'open-source tools.',
+    'LLMs from scratch.',
+    'production systems.',
+    'multi-agent RAG.',
+    'GPU-accelerated AI.',
     'full-stack apps.',
+    'HPC solutions.',
+    'mobile applications.',
   ];
   let wordIdx = 0;
   let charIdx = 0;
